@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%- title %></title>
+        <link rel='stylesheet' href='styles.css'>
+    </head>
+    
+    <body>
+        <h1><%- title %></h1>
+        <p>Welcome to the <%- title %></p>
+        <form action="/signup" method="post">
+            <input required type="email" name="email" placeholder="Your Email">
+            <input required type="password" name="password" placeholder="Enter Your Password">
+            <input type="submit" value="Sign up for a free trial">
+        </form>
+    </body>
+</html>
